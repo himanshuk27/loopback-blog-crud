@@ -1,0 +1,26 @@
+{
+  "name": "BlogUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user_blog": {
+      "type": "hasMany",
+      "model": "BlogPost",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
