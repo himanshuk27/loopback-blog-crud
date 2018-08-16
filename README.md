@@ -1,4 +1,4 @@
-# Cubereum test
+# Loopback CRUD ops API
 
 ### Instructions
 start command: node .
